@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    background-color: #FAD7A0;
+}
+
+body h1{
+    font-size: 50px;
+    margin: 10px 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.container{
+    box-shadow: 2px 15px 10px black;
+    background: linear-gradient(to bottom, blue,white, red);
+    height: 100%;
+    width: 40%;
+}
+
+.container, .calculate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.calculate{
+    margin:20px;
+    width: 80%;
+    height: 40%;
+}
+
+.container img{
+    width:400px;
+    height: 300px;
+    margin: 10px;
+}
+
+.container .calculate h2{
+    margin: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(95, 95, 95);
+    font-size: 30px;
+}
+
+.input{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input p{
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    font-size: 25px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: #AED6F1;
+    outline: none;
+    border: 2px solid rgb(137, 137, 177);
+    padding: 5px;
+}
+
+input:active{
+    background-color:#C0392B;
+}
+
+input:focus{
+    background-color:#C0392B;
+}
+
+#calculoCel{
+    margin-left: 8px;
+}
+
+.container button{
+    padding: 2px 7px;
+    margin: 5px 0px 10px 0px;
+    border-radius: 25px;
+    background-color:#AED6F1;
+    color:black; 
+    letter-spacing: 2px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color:#C0392B ;
+    color:white;
+}
+
+
+
+
+
+

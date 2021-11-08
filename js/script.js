@@ -7,6 +7,6 @@ btnEnviar.addEventListener("click", function(){
         input.value = ""
     }else{
         let resultado = (input.value * 9/5) + 32;
-        input.value = resultado;
+        input.value = `Su conversion es ${resultado}°F`;
     }
 });
